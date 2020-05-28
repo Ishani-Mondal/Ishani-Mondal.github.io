@@ -21,8 +21,13 @@ Another warm-up task included having some hands-on experience in understanding s
 
 
 
-<img src="images/emoticons/cool.png">
+### Task 3: Conll parsing
 
+Another important thing which was to be taken care at the earliest would be identifying tree query languages, given that the syntactic parsers generally give the parse output in the form of a .conll file. Given most of these libraies are present in other languages such as Java and that python libraries don’t offer much flexibility, it was important to find a suitable library for the project. After going through Universal Dependencies and Github for such packages, I finally managed to find a python library for the following. This library is now being modified to suit the needs of the project. The link to the this library and the original library can be found at the link below.
+
+The Code-base of this project will be hosted on Github shortly. Details of Spotlight, conll modifications, Tregex-based triple extraction and ClauseIE based triple extraction  will be put in the next blog post. Do check out my other blog posts!
+
+Cheers!
 
 
 ### Markdown
