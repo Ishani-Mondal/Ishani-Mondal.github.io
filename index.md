@@ -1,8 +1,9 @@
-## Welcome to GitHub Pages
+## Introduction & Community Bonding Period - Part-1
 
-You can use the [editor on GitHub](https://github.com/Ishani-Mondal/Ishani-Mondal.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The following blog is an account of the GSoC project taken by me under DBpedia. I would like to thank Mariano Rico for mentoring and who will be following me through this journey. A few details about this project :- The main idea of this project is use syntactic methods (syntax parsers) coupled with other linguistic based algorithms in order to help generate triples from information abstracts. DBpedia has created a large web graph using the following data which can be found on their website. We wish to provide a sort of automation to finding triples which can be added to this webgraph. The other details can be found in my proposal.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The firt phase of GSoC is the Community bonding period which extends till late May. In this phase, prelimnaries to that project are taken care of. Given I have reached the halfway point of this phase, I thought of talking about what all I have done and what I will work on in the near future.
+
 
 ### Markdown
 
