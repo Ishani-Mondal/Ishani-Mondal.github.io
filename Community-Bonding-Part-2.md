@@ -4,5 +4,5 @@ I was geared up in understanding the basic pattern-based (Hearst patterns) appro
 
 ### Tregex-based Pattern Approach:
 
-In the first part of the last week of the community bonding period, I have spent a considerable amount of time in understanding the Tregex-based pattern-matching approach. I faced some difficulties in searching for a reasonable Tregex-based parser in python as the Tregex approach by Stanford ![link](https://nlp.stanford.edu/software/tregex.html) has been mostly implemented using Java.
+In the first part of the last week of the community bonding period, I have spent a considerable amount of time in understanding the Tregex-based pattern-matching approach. I faced some difficulties in searching for a reasonable Tregex-based parser in python as the ![Tregex approach by Stanford](https://nlp.stanford.edu/software/tregex.html) has been mostly implemented using Java.
 
