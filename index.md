@@ -8,6 +8,12 @@ The firt phase of GSoC is the Community bonding period which extends till late M
 
 The first prelimnary tasks include understanding DBpedia Spotlight. Spotlight is an annotating tool, which when given an abstract or a sentence can annotate words, given their presence in the DBpedia web graph or an instance of it is present. Understanding this would be important, given that this tool will be necessary for generating triples and mapping these words to the already existant forms present in the DBpedia web graph.
 
+### Task-2 Familiarization with Dbpedia Classes and Ontologies:
+
+Another warm-up task included having some hands-on experience in understanding several Ontology Classes and the properties in Dbpedia. My mentor gave a suitable example on the DBpedia Resource of [GitHub Flavored Markdown](http://dbpedia.org/page/Donald_Trump).
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
