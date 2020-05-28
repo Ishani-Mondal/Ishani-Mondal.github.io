@@ -4,6 +4,9 @@ The following blog is an account of the GSoC project taken by me under DBpedia. 
 
 The firt phase of GSoC is the Community bonding period which extends till late May. In this phase, prelimnaries to that project are taken care of. Given I have reached the halfway point of this phase, I thought of talking about what all I have done and what I will work on in the near future.
 
+### Task-1 Spotlight
+
+The first prelimnary tasks include understanding DBpedia Spotlight. Spotlight is an annotating tool, which when given an abstract or a sentence can annotate words, given their presence in the DBpedia web graph or an instance of it is present. Understanding this would be important, given that this tool will be necessary for generating triples and mapping these words to the already existant forms present in the DBpedia web graph.
 
 ### Markdown
 
