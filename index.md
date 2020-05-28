@@ -19,7 +19,7 @@ Another warm-up task included having some hands-on experience in understanding s
       - <covid19> <owl:class> <dbpedia:Disease>
       - <covid19> <rdf:is_a> <dbpedia:FakeNews>
 
-
+```
 
 ### Task 3: Conll parsing
 
