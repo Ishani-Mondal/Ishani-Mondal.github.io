@@ -10,8 +10,11 @@ The first prelimnary tasks include understanding DBpedia Spotlight. Spotlight is
 
 ### Task-2 Familiarization with Dbpedia Classes and Ontologies:
 
-Another warm-up task included having some hands-on experience in understanding several Ontology Classes and the properties in Dbpedia. My mentor gave a suitable example on the DBpedia Resource of [GitHub Flavored Markdown](http://dbpedia.org/page/Donald_Trump).
-
+Another warm-up task included having some hands-on experience in understanding several Ontology Classes and the properties in Dbpedia. My mentor gave a suitable example on the DBpedia Resource of [Donald Trump](http://dbpedia.org/page/Donald_Trump). For example: for the sentence “The president of the US told that covid19 disease is fake news”, we could get these triples:
+      <http://dbpedia.org/page/Donald_Trump> <verb:say> <directObject_1>
+      <directObject_1> <owl:class> <dbpedia:Disease>
+      <covid19> <owl:class> <dbpedia:Disease>
+      <covid19> <rdf:is_a> <dbpedia:FakeNews>
 
 
 ### Markdown
