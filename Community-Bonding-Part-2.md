@@ -1,1 +1,1 @@
-YOUR_USERNAME.github.io
+With the community bonding period done, the actual coding phase has started. As mentioned in my previous blog post, in this post I will be talking about the modifications I have made, what I worked on in the second half of my community bonding period and what I will be doing for the next week.
