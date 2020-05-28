@@ -20,6 +20,11 @@ Another warm-up task included having some hands-on experience in understanding s
       - <covid19> <rdf:is_a> <dbpedia:FakeNews>
 
 
+
+<img src="images/emoticons/cool.png">
+
+
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
