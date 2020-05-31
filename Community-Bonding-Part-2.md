@@ -4,5 +4,20 @@ I was geared up in understanding the basic pattern-based (Hearst patterns) appro
 
 ### Tregex-based Pattern Approach:
 
-In the first part of the last week of the community bonding period, I have spent a considerable amount of time in understanding the Tregex-based pattern-matching approach. I faced some difficulties in searching for a reasonable Tregex-based parser in python as the [Tregex approach by Stanford](https://nlp.stanford.edu/software/tregex.html) has been mostly implemented using Java. I have finally found a repository of [tregex-based pattern finding in python](https://github.com/szymonlopaciuk/dep_tregex_mod) in which I have finally made some modifications to yield a Tregex-based Triple Extraction framework.
+In the first part of the last week of the community bonding period, I have spent a considerable amount of time in understanding the Tregex-based pattern-matching approach. I faced some difficulties in searching for a reasonable Tregex-based parser in python as the [Tregex approach by Stanford](https://nlp.stanford.edu/software/tregex.html) has been mostly implemented using Java. I have finally found a repository of [tregex-based pattern finding in python](https://github.com/szymonlopaciuk/dep_tregex_mod) in which I have finally made some modifications to yield a Tregex-based Triple Extraction framework. Finally came up with an implementation of the same using DBPedia abstracts, the code of which can be found [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/src) and the results can be obtained [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/tregex_results.txt).
+
+
+### ClauseIE-based Approach:
+
+In the first part of the last week of the community bonding period, I have spent a considerable amount of time in understanding the OpenIE and ClauseIE based triple extraction methodology. I haved forked the python wrapper of the CLauseIE and implemented to extract triples , the code of which can be obtained [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/src) and results [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/ClauseIE_Results.txt).
+
+### Mapping the Subject-Verb-Objects to DBpedia Classes and Resources:
+
+For the purpose of mapping, I have used the DBpedia Spotlight API, the [mapped results are found here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/Mapped_ClauseIE_results.txt).
+
+Thanks much for going through this !!
+
+
+
+
 
