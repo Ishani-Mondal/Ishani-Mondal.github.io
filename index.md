@@ -23,41 +23,14 @@ Another warm-up task included having some hands-on experience in understanding s
 
 ### Task 3: Conll parsing
 
-Another important thing which was to be taken care at the earliest would be identifying tree query languages, given that the syntactic parsers generally give the parse output in the form of a .conll file. Given most of these libraies are present in other languages such as Java and that python libraries don’t offer much flexibility, it was important to find a suitable library for the project. After going through Universal Dependencies and Github for such packages, I finally managed to find a python library for the following. This library is now being modified to suit the needs of the project. The link to the this library and the original library can be found at the link below.
+Another important thing which was to be taken care at the earliest would be identifying tree query languages, given that the syntactic parsers generally give the parse output in the form of a .conll file. Given most of these libraies are present in other languages such as Java and that python libraries don’t offer much flexibility, it was important to find a suitable library for the project. After going through Universal Dependencies and Github for such packages, I finally managed to find a python library for the following. This library is now being modified to suit the needs of the project.
+
+
+### Task 3: Pattern-based Triple Extraction 
+
+The next step was to get some grip on the pattern-based rules to extract the <Subject-verb-object> triples from the DBpedia abstracts. I started exploring the POS-tag based Hearst pattern-matching approach to extraction of triples. Apart from exploring the naive POS-tag based Hearst-pattern approach to triple extraction, it has been observed that a tree-based pattern matcher is required, given the complexity of the English sentences. Some intuitive insights can be inferred from the transitivity of the verbs in determining object types, as well as, relative position of the prepositions with respect to verbs and modifiers. Therefore, Mariano asked me to have a close look on the Tregex-based pattern matching algorithm developed by Stanford.
 
 The Code-base of this project will be hosted on Github shortly. Details of Spotlight, conll modifications, Tregex-based triple extraction and ClauseIE based triple extraction  will be put in the next blog post. Do check out my other blog posts!
 
 Cheers!
 
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ishani-Mondal/Ishani-Mondal.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
