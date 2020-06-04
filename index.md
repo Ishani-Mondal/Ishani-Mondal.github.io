@@ -38,7 +38,7 @@ We looked into the interesting properties of DBpedia lexicalization made using t
       
 The Code-base of this project will be hosted on Github shortly. Details of Spotlight, conll modifications, Tregex-based triple extraction and ClauseIE based triple extraction  will be put in the next blog post. Do check out my other blog posts!
 
-Let us see you in the next week for [second part of the community bonding phase]().
+Let us see you in the next week for [second part of the community bonding phase](https://github.com/Ishani-Mondal/Ishani-Mondal.github.io/blob/master/Community-Bonding-Part-2.md).
 
 Cheers!
 
