@@ -6,7 +6,7 @@ The firt phase of GSoC is the Community bonding period which extends till late M
 
 ### Task-1 Spotlight
 
-The first prelimnary tasks include understanding DBpedia Spotlight. Spotlight is an annotating tool, which when given an abstract or a sentence can annotate words, given their presence in the DBpedia web graph or an instance of it is present. Understanding this would be important, given that this tool will be necessary for generating triples and mapping these words to the already existant forms present in the DBpedia web graph.
+The first prelimnary tasks include understanding DBpedia Spotlight. [Spotlight](https://pypi.org/project/pyspotlight/) is an annotating tool, which when given an abstract or a sentence can annotate words, given their presence in the DBpedia web graph or an instance of it is present. Understanding this would be important, given that this tool will be necessary for generating triples and mapping these words to the already existant forms present in the DBpedia web graph.
 
 ### Task-2 Familiarization with Dbpedia Classes and Ontologies:
 
@@ -23,7 +23,7 @@ Another warm-up task included having some hands-on experience in understanding s
 
 ### Task 3: Conll parsing
 
-Another important thing which was to be taken care at the earliest would be identifying tree query languages, given that the syntactic parsers generally give the parse output in the form of a .conll file. Given most of these libraies are present in other languages such as Java and that python libraries don’t offer much flexibility, it was important to find a suitable library for the project. After going through Universal Dependencies and Github for such packages, I finally managed to find a python library for the following. This library is now being modified to suit the needs of the project.
+Another important thing which was to be taken care at the earliest would be identifying tree query languages, given that the syntactic parsers generally give the parse output in the form of a .conll file. Given most of these libraies are present in other languages such as Java and that python libraries don’t offer much flexibility, it was important to find a suitable library for the project. After going through Universal Dependencies and Github for such packages, I finally managed to find [a python library](https://github.com/EmilStenstrom/conllu) for the following. This library is now being modified to suit the needs of the project.
 
 
 ### Task 3: Pattern-based Triple Extraction 
@@ -37,6 +37,8 @@ Mariano has introduced to m the verb lexical information is key for better tripl
 We looked into the interesting properties of DBpedia lexicalization made using the [Lemon Model](ceur-ws.org/Vol-1064/Unger_lemon.pdf). We looked into the code and api used for [verb lexicalization](https://github.com/ag-sc/lemon.dbpedia), most importantly the lemon patterns used in the English language.
       
 The Code-base of this project will be hosted on Github shortly. Details of Spotlight, conll modifications, Tregex-based triple extraction and ClauseIE based triple extraction  will be put in the next blog post. Do check out my other blog posts!
+
+Let us see you in the next week for [second part of the community bonding phase]().
 
 Cheers!
 
