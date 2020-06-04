@@ -16,9 +16,31 @@ Divide the steps into primarily three techniques as described below:
 
 Firstly  we  intend  to  find  the  subject  of  the  sentence.  In  order  to  find  it,  we  are  going  to  search  in  the  NP  subtree.  The  subject  will  be  found  by  performing  breadth  first  search  and  selecting  the  first  descendent  of  NP  that  is  a  noun.
 
+```markdown
+
+     def find_subject(self, t): 
+        for s in t.subtrees(lambda t: t.label() == 'NP'):
+            for n in s.subtrees(lambda n: n.label().startswith('NN')):
+                #print(n[0], self.find_attrs(n))
+                return (n[0], self.find_attrs(n))
+
+```
+
 #### Predicate Finding:
 
 Secondly,  for  determining  the  predicate  of  the  sentence,  a  search  will  be  performed  in  the  VP  subtree.  The  deepest  verb  descendent  of  the  verb  phrase  will  give  the  second  element  of  the  triplet
+
+```markdown
+      
+     def find_predicate(self, t):    
+        v = None
+        
+        for s in t.subtrees(lambda t: t.label() == 'VP'):
+            for n in s.subtrees(lambda n: n.label().startswith('VB')):
+                v = n
+            return (v[0], self.find_attrs(v))
+
+```
 
 #### Object Finding:
 
@@ -28,6 +50,20 @@ Moreover, for each of the element in the triplet, we also take a look into its m
 
 Finally came up with an implementation of the same using DBPedia abstracts, the code of which can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Tregex_implemenatation/Tregex_Obama_DBpedia.ipynb), algorithm and directions to run [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/Tregex_implemenatation) and the results can be obtained [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/tregex_results.txt).
 
+```markdown
+      
+     def find_object(self,t):    
+        for s in t.subtrees(lambda t: t.label() == 'VP'):
+            for n in s.subtrees(lambda n: n.label() in ['NP', 'PP', 'ADJP']):
+                if n.label() in ['NP', 'PP']:
+                    for c in n.subtrees(lambda c: c.label().startswith('NN')):
+                        return (c[0], self.find_attrs(c))
+                        # return c[0]
+                else:
+                    for c in n.subtrees(lambda c: c.label().startswith('JJ')):
+                        return (c[0], self.find_attrs(c))
+
+```
 
 # ClauseIE-based Approach:
 
