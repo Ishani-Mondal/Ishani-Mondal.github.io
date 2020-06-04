@@ -26,7 +26,7 @@ Thirdly,  we  look  for  objects.  These  can  be  found  in  three  different s
 
 Moreover, for each of the element in the triplet, we also take a look into its modifiers, which mostly consists of adjectives (for nouns) and adverbs for the adjectives (for adjectives).
 
-Finally came up with an implementation of the same using DBPedia abstracts, the code of which can be found [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/src) and the results can be obtained [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/tregex_results.txt).
+Finally came up with an implementation of the same using DBPedia abstracts, the code of which can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Tregex_implemenatation/Tregex_Obama_DBpedia.ipynb), algorithm and directions to run [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/Tregex_implemenatation) and the results can be obtained [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/tregex_results.txt).
 
 
 # ClauseIE-based Approach:
