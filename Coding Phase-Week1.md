@@ -5,7 +5,7 @@ The dependency parse tree method is ClauseIE. ClausIE exploits linguistic knowle
 in an input sentence and to subsequently identify the type of each clause according to the grammatical function of its constituents.
 
 For the purpose of extracting out the triplets I have used the code [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Clause_IE_Predictions.ipynb)
-The details of extracting out the triplets can be found [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/Pyclausie). 
+The details of setting up the environment for extracting out the triplets can be found [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/Pyclausie). 
 
 # Details of the algorithm 
 
