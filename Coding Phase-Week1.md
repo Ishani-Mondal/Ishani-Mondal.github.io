@@ -18,12 +18,14 @@ The algorithm used consists of using seven different patterns:
 2. Converting the dependencies to clauses using the patterns 
 
 
- Pattern             Clause type            Example                                 Derived clauses
+   Pattern           Clause type            Example                                Derived clauses
+   
 1.  SVi                SV                  AE died.                                 (AE, died)
 2   SVeA               SVA             AE remained in Princeton.             (AE, remained, in Princeton)
-3. SVcC                SVC                AE is smart.                             (AE, is, smart)
-S4: SVmtO SVO AE has won the Nobel Prize. (AE, has won, the Nobel Prize)
-S5: SVdtOiO SVOO RSAS gave AE the Nobel Prize. (RSAS, gave, AE, the Nobel Prize)
-S6: SVctOA SVOA The doorman showed AE to his office. (The doorman, showed, AE, to his office)
-S7: SVctOC SVOC AE declared the meeting open. (AE, declared, the meeting, open)
+3.  SVcC               SVC                AE is smart.                             (AE, is, smart)
+4.  SVmtO              SVO             AE has won the Nobel Prize.             (AE, has won, the Nobel Prize)
+5. SVdtOiO            SVOO           RSAS gave AE the Nobel Prize.            (RSAS, gave, AE, the Nobel Prize)
 
+The notations are: 
+S: Subject, V: Verb, C: Complement, O: Direct object, Oi: Indirect object, A: Adverbial, Vi: Intransitive verb, Vc: Copular verb,
+Vc: Extended-copular verb, Vmt: Monotransitive verb, Vdt: Ditransitive verb
