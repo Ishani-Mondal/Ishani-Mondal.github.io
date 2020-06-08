@@ -18,14 +18,28 @@ Find out the dependency parse tree of the sentence
 Converting the dependencies to clauses using the patterns 
 
 
-   Pattern           Clause type            Example                                Derived clauses
+    Pattern           Clause type            Example                                Derived clauses
    
-1.  SVi                SV                  AE died.                                 (AE, died)
-2   SVeA               SVA             AE remained in Princeton.             (AE, remained, in Princeton)
-3.  SVcC               SVC                AE is smart.                             (AE, is, smart)
-4.  SVmtO              SVO             AE has won the Nobel Prize.             (AE, has won, the Nobel Prize)
-5. SVdtOiO            SVOO           RSAS gave AE the Nobel Prize.            (RSAS, gave, AE, the Nobel Prize)
+1.  [SVi]               SV                  AE died.                                 (AE, died)
+2   SVeA                SVA             AE remained in Princeton.             (AE, remained, in Princeton)
+3.  SVcC                SVC                AE is smart.                             (AE, is, smart)
+4.  SVmtO               SVO             AE has won the Nobel Prize.             (AE, has won, the Nobel Prize)
 
 The notations are: 
 S: Subject, V: Verb, C: Complement, O: Direct object, Oi: Indirect object, A: Adverbial, Vi: Intransitive verb, Vc: Copular verb,
-Vc: Extended-copular verb, Vmt: Monotransitive verb, Vdt: Ditransitive verb
+Vc: Extended-copular verb, Vmt: Monotransitive verb
+
+Finally extracting out the triples as a code:
+
+
+```markdown
+sents=[]
+
+for sent in doc.sents:
+    sents.append(sent.text)
+
+triples = cl.extract_triples(sents)
+for triple in triples:
+    print(str(triple).split(",")[0].split("=")[1], str(triple).split(",")[1].split("=")[1],str(triple).split(",")[2].split("=")[1], str(triple).split(",")[3].split("=")[1])
+ 
+'''
