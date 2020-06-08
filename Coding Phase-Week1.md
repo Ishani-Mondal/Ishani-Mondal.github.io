@@ -30,6 +30,8 @@ S: Subject, V: Verb, C: Complement, O: Direct object, Oi: Indirect object, A: Ad
 Vc: Extended-copular verb, Vmt: Monotransitive verb
 ```
 
+Details of the algorithm implemented by the [pyclausie tool](https://github.com/AnthonyMRios/pyclausie) can be seen from the [paper](http://resources.mpi-inf.mpg.de/d5/clausie/clausie-www13.pdf).
+
 Finally extracting out the triples as a code:
 
 
@@ -63,7 +65,7 @@ with open('Obama_Json.json') as f:
         resource_dict[elem['@surfaceForm'].lower()]= elem['@URI'].lower()
 ```
 
-Finally we also incorporate the verb lexicalization by using the white-list of the verbs provided by Mariano. The input file of the lexicalized verbs can be found [here], the code to parse the entire file into RDF has been specified [here]()
+Finally we also incorporate the verb lexicalization by using the white-list of the verbs provided by Mariano. The input file of the lexicalized verbs can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/lexicalized_verbs.pkl), the code to parse the entire file into RDF has been specified [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Clause_IE_Predictions_to_RDF.ipynb)
 
 ```markdown
 The verbs mostly used are:
@@ -72,7 +74,7 @@ The verbs mostly used are:
 'work as' : 'http://dbpedia.org/ontology/occupation'
 ```
 
-The final results of RDF generated from this approach can be found as a result [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/RDF_converted)
+The final results of RDF generated from this approach can be found as a result [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Clause_IE_Predictions_to_RDF.ipynb)
 
 Thanks for your time in going through this !!
 
