@@ -17,7 +17,7 @@ The algorithm used consists of using seven different patterns:
 Find out the dependency parse tree of the sentence
 Converting the dependencies to clauses using the patterns 
 
-
+```markdown
     Pattern           Clause type            Example                                Derived clauses
    
 1.  [SVi]               SV                  AE died.                                 (AE, died)
@@ -29,6 +29,7 @@ The notations are:
 S: Subject, V: Verb, C: Complement, O: Direct object, Oi: Indirect object, A: Adverbial, Vi: Intransitive verb, Vc: Copular verb,
 Vc: Extended-copular verb, Vmt: Monotransitive verb
 
+'''
 Finally extracting out the triples as a code:
 
 
