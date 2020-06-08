@@ -14,8 +14,8 @@ verb (V), and optionally of an indirect object (O), a direct object (O), a compl
 
 The algorithm used consists of using seven different patterns:
 
-1. Find out the dependency parse tree of the sentence
-2. Converting the dependencies to clauses using the patterns 
+Find out the dependency parse tree of the sentence
+Converting the dependencies to clauses using the patterns 
 
 
    Pattern           Clause type            Example                                Derived clauses
