@@ -28,8 +28,8 @@ Converting the dependencies to clauses using the patterns
 The notations are: 
 S: Subject, V: Verb, C: Complement, O: Direct object, Oi: Indirect object, A: Adverbial, Vi: Intransitive verb, Vc: Copular verb,
 Vc: Extended-copular verb, Vmt: Monotransitive verb
+```
 
-'''
 Finally extracting out the triples as a code:
 
 
