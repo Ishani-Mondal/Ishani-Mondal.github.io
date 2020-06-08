@@ -1,4 +1,4 @@
-# Community Bonding Part II
+# Week - 1 :- Getting Started.
 
 In the first week of the coding period, I implemented the method to extract out the triplets using dependency parse tree and also integrate the results into DBPedia Spotlight
 The dependency parse tree method is ClauseIE. ClausIE exploits linguistic knowledge about the grammar of the English language to first detect clauses
