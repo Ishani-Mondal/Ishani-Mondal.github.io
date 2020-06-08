@@ -1,0 +1,15 @@
+# Community Bonding Part II
+
+In the first week of the coding period, I implemented the method to extract out the triplets using dependency parse tree and also integrate the results into DBPedia Spotlight
+The dependency parse tree method is ClauseIE. ClausIE exploits linguistic knowledge about the grammar of the English language to first detect clauses
+in an input sentence and to subsequently identify the type of each clause according to the grammatical function of its constituents.
+
+For the purpose of extracting out the triplets I have used the code [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Clause_IE_Predictions.ipynb)
+The details of extracting out the triplets can be found [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/Pyclausie). 
+
+# Details of the algorithm 
+
+A clause is a part of a sentence that expresses some coherent piece of information; it consists of one subject (S), one
+verb (V), and optionally of an indirect object (O), a direct object (O), a complement (C), and one or more adverbials (A).
+
+The algorithm used is:
