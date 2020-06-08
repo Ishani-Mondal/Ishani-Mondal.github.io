@@ -73,3 +73,7 @@ The verbs mostly used are:
 ```
 
 The final results of RDF generated from this approach can be found as a result [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/RDF_converted)
+
+Thanks for your time in going through this !!
+
+
