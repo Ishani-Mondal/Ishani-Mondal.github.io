@@ -12,23 +12,7 @@ The details of setting up the environment for extracting out the triplets can be
 A clause is a part of a sentence that expresses some coherent piece of information; it consists of one subject (S), one
 verb (V), and optionally of an indirect object (O), a direct object (O), a complement (C), and one or more adverbials (A).
 
-The algorithm used consists of using seven different patterns:
-
-Find out the dependency parse tree of the sentence
-Converting the dependencies to clauses using the patterns 
-
-```markdown
-    Pattern           Clause type            Example                                Derived clauses
-   
-1.  [SVi]               SV                  AE died.                                 (AE, died)
-2   SVeA                SVA             AE remained in Princeton.             (AE, remained, in Princeton)
-3.  SVcC                SVC                AE is smart.                             (AE, is, smart)
-4.  SVmtO               SVO             AE has won the Nobel Prize.             (AE, has won, the Nobel Prize)
-
-The notations are: 
-S: Subject, V: Verb, C: Complement, O: Direct object, Oi: Indirect object, A: Adverbial, Vi: Intransitive verb, Vc: Copular verb,
-Vc: Extended-copular verb, Vmt: Monotransitive verb
-```
+The algorithm used consists of using different patterns:
 
 Details of the algorithm implemented by the [pyclausie tool](https://github.com/AnthonyMRios/pyclausie) can be seen from the [paper](http://resources.mpi-inf.mpg.de/d5/clausie/clausie-www13.pdf).
 
