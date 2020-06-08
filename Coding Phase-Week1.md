@@ -55,5 +55,21 @@ curl -X GET "https://api.dbpedia-spotlight.org/en/annotate?text=Barack%20Hussein
 
 Intermediate JSON File obtained from DBPedia SpotLight can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/Obama_Json.json). The parsing of JSON file to substitute the entities to the resources can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/mapping/Parse_Dbpedia_Resource.ipynb).
 
+```markdown
+resource_dict={}
+with open('Obama_Json.json') as f:
+    data = json.load(f)
+    for elem in (data['Resources']):
+        resource_dict[elem['@surfaceForm'].lower()]= elem['@URI'].lower()
+```
 
-Finally we also incorporate the verb lexicalization by using the white-list of the verbs provided by Mariano. 
+Finally we also incorporate the verb lexicalization by using the white-list of the verbs provided by Mariano. The input file of the lexicalized verbs can be found [here], the code to parse the entire file into RDF has been specified [here]()
+
+```markdown
+The verbs mostly used are:
+'graduate of' : 'http://dbpedia.org/ontology/college'
+'study at' : 'http://dbpedia.org/ontology/college'
+'work as' : 'http://dbpedia.org/ontology/occupation'
+```
+
+The final results of RDF generated from this approach can be found as a result [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/RDF_converted)
