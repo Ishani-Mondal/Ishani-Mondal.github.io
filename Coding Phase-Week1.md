@@ -14,7 +14,18 @@ verb (V), and optionally of an indirect object (O), a direct object (O), a compl
 
 The algorithm used consists of using different patterns:
 
-Details of the algorithm implemented by the [pyclausie tool](https://github.com/AnthonyMRios/pyclausie) described in the [paper](http://resources.mpi-inf.mpg.de/d5/clausie/clausie-www13.pdf) has been summarized below:
+Details of the algorithm described in the [paper](http://resources.mpi-inf.mpg.de/d5/clausie/clausie-www13.pdf) has been summarized below:
+
+STEP 1: Compute the dependency Parse (DP) Tree of the Sentence.
+
+STEP 2: Determine the set of clauses using the DP.
+
+We first identify the clauses in the input sentence, obtain the head word of all the constituents of each clause. First, we construct a clause for every subject dependency in the DP (e.g., nsubj); the dependant constitutes the subject (S) and the governor the verb (V). 4 All other constituents of the clause are dependants of the verb: objects (O) and complements (C) via relations such as: dobj (direct object), iobj (indirect object), xcomp, or ccomp; and adverbials (A) via dependency relations such as advmod, advcl, or prep_in. 
+
+Augmenting the set of 
+
+
+
 
 
 
