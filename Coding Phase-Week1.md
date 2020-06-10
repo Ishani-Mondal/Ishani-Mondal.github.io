@@ -25,28 +25,38 @@ Input Data [Link]()
 Code [Link]()
 Results [Link]()
 
+## Triples in Text Format Extraction:
+
 1. Obtain the textual triplets by running the pyclausie Algorithm. It generates the triples in the form of <subject, predicate, object>. For example, the sentence will "Barack Hussein Obama II is an American politician" will be parsed to generate the triple as follows:
+
+Example1:
 
 ```markdown
 <Barack Hussein Obama ii> <is> <an American politician>
 ```
+
+Example2:
+
 The sentence "Obama worked as a civil rights attorney" will be parsed as:
 ```markdown
 <Obama> <worked> <as a civil rights attorney>
 ```
 
-2. 
+## Post-Processing the Triples:
+
+2. Take a white-list of the lexical information which maps the verb into DBpedia ontologies, link to the white-list data can be found [here] and [here]. 
+Suppose, there is a verb 'work as' in the white-list, we perform the following steps:
+
+Since, in Example2, 'work' is present in past-tense and 'as' is present in the object part, we do a post-processing of the triples and modify the triples by converting the verbs into infinitive forms and search whether the verb along with first letter in the object is present in the white-list of verb-mappings and then perform lexicalization of those verbs. We also repeat this search in case if the white-list verbs are present in the objects. We have used the [nltk.lemmatizer](https://www.nltk.org/) for converting the verbs into infinite form.
 
 ```markdown
-sents=[]
-
-for sent in doc.sents:
-    sents.append(sent.text)
-
-triples = cl.extract_triples(sents)
-for triple in triples:
-    print(str(triple).split(",")[0].split("=")[1], str(triple).split(",")[1].split("=")[1],str(triple).split(",")[2].split("=")[1], str(triple).split(",")[3].split("=")[1])
+    modified_p=lemmatizer.lemmatize(p, 'v')+" "+str(o.split(" ")[0])
+    if(modified_p in white_dict.keys() or modified_p in type_dict.keys()):
+        p=modified_p
+        o=" ".join(o.split(" ")[1:])
+    
 ```
+
 
 The results of extracting out the triples without using spotlight has been provided [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/ClauseIE_Results.txt)
 
