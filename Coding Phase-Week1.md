@@ -22,7 +22,21 @@ STEP 2: Determine the set of clauses using the DP.
 
 We first identify the clauses in the input sentence, obtain the head word of all the constituents of each clause. First, we construct a clause for every subject dependency in the DP (e.g., nsubj); the dependant constitutes the subject (S) and the governor the verb (V). 4 All other constituents of the clause are dependants of the verb: objects (O) and complements (C) via relations such as: dobj (direct object), iobj (indirect object), xcomp, or ccomp; and adverbials (A) via dependency relations such as advmod, advcl, or prep_in. 
 
-Augmenting the set of 
+STEP 3: Determine the type of clauses using Pattern of the dependency relations. There are seven basic patterns which are as follows:
+
+
+```markdown
+Clause Type                                         Examples                Derived Clauses
+==============================================================================================================
+Subject-Verb
+Subject-Verb-Adverbial
+Subject-Verb-Complement
+Subject-Verb-Object
+Subject-Verb-indirectObject-directObject
+Subject-Verb-Object-Adverbial
+Subject-Verb-Object-Complement
+```
+
 
 
 
