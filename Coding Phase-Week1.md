@@ -77,30 +77,13 @@ Using DBpedia Spotlight API:
 curl -X GET "https://api.dbpedia-spotlight.org/en/annotate?text=Barack%20Hussein%20Obama%20II%20is%20an%20American%20politician%20who%20is%20the%2044th%20and%20current%20President%20of%20the%20United%20States.%20He%20is%20the%20first%20African%20American%20to%20hold%20the%20office%20and%20the%20first%20president%20born%20outside%20the%20continental%20United%20States.%20Born%20in%20Honolulu%2C%20Hawaii%2C%20Obama%20is%20a%20graduate%20of%20Columbia%20University%20and%20Harvard%20Law%20School%2C%20where%20he%20was%20president%20of%20the%20Harvard%20Law%20Review.%20He%20was%20a%20community%20organizer%20in%20Chicago%20before%20earning%20his%20law%20degree.%20He%20worked%20as%20a%20civil%20rights%20attorney%20and%20taught%20constitutional%20law%20at%20the%20University%20of%20Chicago%20Law%20School%20between%201992%20and%202004.%20While%20serving%20three%20terms%20representing%20the%2013th%20District%20in%20the%20Illinois%20Senate%20from%201997%20to%202004%2C%20he%20ran%20unsuccessfully%20in%20the%20Democratic%20primary%20for%20the%20United%20States%20Hou" -H "accept: application/json"
 ```
 
-Intermediate JSON File obtained from DBPedia SpotLight can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/Obama_Json.json). We subsitute the named entities with the DBPedia Spotlight generated resources. For example, the triple <Obama> <worked> <as a civil rights attorney> will be substitued as:
+Code to subsitute the results can be found [here](). Intermediate JSON File obtained from DBPedia SpotLight can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/Obama_Json.json). We subsitute the named entities with the DBPedia Spotlight generated resources. For example, the triple <Obama> <worked> <as a civil rights attorney> will be substitued as:
 
 ```markdown
     <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/occupation> <a a http://dbpedia.org/resource/Civil_and_political_rights attorney>
 ```
 ## STEP 4:
 ### RDF Generation:
-
-```markdown
-resource_dict={}
-with open('Obama_Json.json') as f:
-    data = json.load(f)
-    for elem in (data['Resources']):
-        resource_dict[elem['@surfaceForm'].lower()]= elem['@URI'].lower()
-```
-
-Finally we also incorporate the verb lexicalization by using the white-list of the verbs provided by Mariano. The input file of the lexicalized verbs can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/lexicalized_verbs.pkl), the code to parse the entire file into RDF has been specified [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Clause_IE_Predictions_to_RDF.ipynb)
-
-```markdown
-The verbs mostly used are:
-'graduate of' : 'http://dbpedia.org/ontology/college'
-'study at' : 'http://dbpedia.org/ontology/college'
-'work as' : 'http://dbpedia.org/ontology/occupation'
-```
 
 The final results of RDF generated from this approach can be found as a result [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Clause_IE_Predictions_to_RDF.ipynb)
 
