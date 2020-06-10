@@ -26,13 +26,13 @@ STEP 3: Determine the type of clauses using Pattern of the dependency relations.
 
 
 ```markdown
-Clause Type                                         Examples                Derived Clauses
-==============================================================================================================
-Subject-Verb
-Subject-Verb-Adverbial
+Clause Type                                         Examples                                    Derived Clauses
+============================================================================================================================
+Subject-Verb                                        He ran                                        (He,ran)
+Subject-Verb-Adverbial                     He taught at university of Chicago         (He, taught, at university of Chicago) 
 Subject-Verb-Complement
 Subject-Verb-Object
-Subject-Verb-indirectObject-directObject
+Subject-Verb-iObject-dObject
 Subject-Verb-Object-Adverbial
 Subject-Verb-Object-Complement
 ```
