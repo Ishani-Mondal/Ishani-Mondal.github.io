@@ -19,6 +19,24 @@ Details of the algorithm implemented by the [pyclausie tool](https://github.com/
 Finally extracting out the triples as a code:
 
 
+# Step-by-step Procedure to generate RDF:
+
+Input Data [Link]()
+Code [Link]()
+Results [Link]()
+
+1. Obtain the textual triplets by running the pyclausie Algorithm. It generates the triples in the form of <subject, predicate, object>. For example, the sentence will "Barack Hussein Obama II is an American politician" will be parsed to generate the triple as follows:
+
+```markdown
+<Barack Hussein Obama ii> <is> <an American politician>
+```
+The sentence "Obama worked as a civil rights attorney" will be parsed as:
+```markdown
+<Obama> <worked> <as a civil rights attorney>
+```
+
+2. 
+
 ```markdown
 sents=[]
 
