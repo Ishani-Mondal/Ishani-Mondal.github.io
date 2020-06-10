@@ -26,24 +26,18 @@ STEP 3: Determine the type of clauses using Pattern of the dependency relations.
 
 
 ```markdown
-Clause Type                                         Examples                                    Derived Clauses
+Clause Type                                         Examples                                  Derived Clauses
 ============================================================================================================================
-Subject-Verb                                        He ran                                        (He,ran)
-Subject-Verb-Adverbial                     He taught at university of Chicago         (He, taught, at university of Chicago) 
-Subject-Verb-Complement
-Subject-Verb-Object
-Subject-Verb-iObject-dObject
-Subject-Verb-Object-Adverbial
-Subject-Verb-Object-Complement
+Subject-Verb                                        He ran                                     (He,ran)
+Subject-Verb-Adverbial                         He taught at Harvard                     (He, taught, at Harvard) 
+Subject-Verb-Complement                        He is a politician                       (He, is, a politician)
+Subject-Verb-Object                          He taught constitutional law           (He, taught, constitutional law)
+Subject-Verb-Object-Adverb         He taught constitutional law at Harvard    (He, taught, constitutional law, at Harvard)
+Subject-Verb-iObject-dobject                 He gave her the Nobel Prize.             (He, gave, her, the Nobel Prize)
+Subject-Verb-Object-Complement              AE declared the meeting open.           (AE, declared, the meeting, open)
 ```
 
-
-
-
-
-
-
-
+Once clauses have been detected, we generate one or more propositions for each clause based on the type of the clause.
 
 # Step-by-step RDF Generation Procedure:
 
