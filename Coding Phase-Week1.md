@@ -19,7 +19,7 @@ Details of the algorithm implemented by the [pyclausie tool](https://github.com/
 Finally extracting out the triples as a code:
 
 
-# Step-by-step Procedure to generate RDF:
+# Step-by-step RDF Generation Procedure:
 
 Input Data [Link]()
 Code [Link]()
