@@ -14,9 +14,10 @@ verb (V), and optionally of an indirect object (O), a direct object (O), a compl
 
 The algorithm used consists of using different patterns:
 
-Details of the algorithm implemented by the [pyclausie tool](https://github.com/AnthonyMRios/pyclausie) can be seen from the [paper](http://resources.mpi-inf.mpg.de/d5/clausie/clausie-www13.pdf).
+Details of the algorithm implemented by the [pyclausie tool](https://github.com/AnthonyMRios/pyclausie) described in the [paper](http://resources.mpi-inf.mpg.de/d5/clausie/clausie-www13.pdf) has been summarized below:
 
-Finally extracting out the triples as a code:
+
+
 
 
 # Step-by-step RDF Generation Procedure:
