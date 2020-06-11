@@ -41,10 +41,6 @@ Once clauses have been detected, we generate one or more propositions for each c
 
 # Step-by-step RDF Generation Procedure:
 
-Input Data [Link]()
-Code [Link]()
-Results [Link]()
-
 ## STEP 1:
 ### Triples in Text Format Extraction:
 
