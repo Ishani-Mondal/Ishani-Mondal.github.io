@@ -96,7 +96,7 @@ curl -X GET "https://api.dbpedia-spotlight.org/en/annotate?text=Barack%20Hussein
 Code to subsitute the results can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Final_RDF_Creation.py). Intermediate JSON File obtained from DBPedia SpotLight can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/Obama_Json.json). We subsitute the named entities with the DBPedia Spotlight generated resources. For example, the triple <Obama> <worked> <as a civil rights attorney> will be substitued as:
 
 ```markdown
-    <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/occupation> <a a http://dbpedia.org/resource/Civil_and_political_rights attorney>
+    <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/occupation> <a http://dbpedia.org/resource/Civil_and_political_rights attorney>
 ```
 ## STEP 4:
 ### RDF Generation:
