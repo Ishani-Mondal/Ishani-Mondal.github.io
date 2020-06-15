@@ -38,6 +38,11 @@ Subject-Verb-Object-Complement              AE declared the meeting open.       
 ```
 
 Once clauses have been detected, we generate one or more propositions for each clause based on the type of the clause.
+For example : when we have more than one object phrases, in case of SVOA(Subject-Verb-Object-Adverb), we generate two triples such as : SVO and SVOA therefore, in example of (He, taught, constitutional law, at Harvard), we will have two Triples <He, taught, constitutional law at Harvard> and another one as <He, taught, constitutional law>
+
+Moreover, in case of Subject-Verb-iObject-dobject, we generate the triples in similar way with more focus on the direct object, therefore, in case of (He, gave, her, the Nobel Prize), we get two triples such as: <He, gave, her the Nobel Prize> and another one as <He, gave, the Nobel Prize>
+
+In case of (AE, declared, the meeting, open), we create one triple as : <AE, declared, the meeting open>.
 
 # Step-by-step RDF Generation Procedure:
 
@@ -78,7 +83,7 @@ Since, in Example2, 'work' is present in past-tense and 'as' is present in the o
 This will convert the triple <Obama> <worked> <as a civil rights attorney> into 
 
 ```markdown
-    <Obama> <http://dbpedia.org/ontology/occupation> <a civil rights attorney>
+    <Obama> <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Civil_and_political_rights>
 ```
     
 ## STEP 3:
