@@ -68,6 +68,25 @@ The sentence "Obama worked as a civil rights attorney" will be parsed as:
 ### Post-Processing the Triples for Lexicalization:
 
 Take a white-list of the lexical information which maps the verb into DBpedia ontologies, link to the white-list data can be found [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/white_dict.json) and [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/type_dict.json)
+
+Contents in typedict whitelist:
+
+```markdown
+{"be a": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+"be the": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", 
+"be an": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"}
+```
+
+Contents in whitelist:
+
+```markdown
+{"graduate of": "http://dbpedia.org/ontology/college",
+"work as": "http://dbpedia.org/ontology/occupation",
+"be born in": "http://dbpedia.org/ontology/birthPlace", 
+"be born outside": "http://dbpedia.org/ontology/birthPlace"}
+
+```
+
 Suppose, there is a verb 'work as' in the white-list, we perform the following steps:
 
 Since, in Example2, 'work' is present in past-tense and 'as' is present in the object part, we do a post-processing of the triples and modify the triples by converting the verbs into infinitive forms and search whether the verb along with first letter in the object is present in the white-list of verb-mappings and then perform lexicalization of those verbs. We also repeat this search in case if the white-list verbs are present in the objects. We have used the [nltk.lemmatizer](https://www.nltk.org/) for converting the verbs into infinite form.
