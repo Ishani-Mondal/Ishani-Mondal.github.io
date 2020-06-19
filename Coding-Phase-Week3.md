@@ -21,4 +21,14 @@ In this example, attorney is the 'attr' of 'work', so we include this informatio
 
 Here 'Honolulu, Hawaai' is the pobj of the verb "born".
 
-### Step3 : Modify the predicate and object using property lexicalization.
+### Step3 : Determine type of the object
+
+Use SPARQL query to determine the type of the object. For example: attorney is a Person, Honolulu is a Place.
+
+### Step4 : Include more in whiteList:
+
+We make use of five white lists including [white_dict.json](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/white_dict.json), [type_dict.json](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/type_dict.json), [synset_dict.json](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/synset_dict.json), [person_list](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/person_list.txt) and [place_list](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/place_list.txt).
+
+We make use of the different lists in the following ways:
+
+
