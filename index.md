@@ -40,11 +40,11 @@ The Code-base of this project will be hosted on Github shortly. Details of Spotl
 
 Let us see you in the next week for [second part of the community bonding phase](https://ishani-mondal.github.io/Community-Bonding-Part-2).
 
-You can follow my work in Coding Phase Week 1 [here](https://github.com/Ishani-Mondal/Ishani-Mondal.github.io/blob/master/Coding%20Phase-Week1.md)
+You can follow my work in Coding Phase Week 1 [here](https://ishani-mondal.github.io/Coding%20Phase-Week1.md)
 
-You can follow my work in Coding Phase Week 2 [here](https://github.com/Ishani-Mondal/Ishani-Mondal.github.io/blob/master/Coding-Phase-Week2.md)
+You can follow my work in Coding Phase Week 2 [here](https://ishani-mondal.github.io/Coding-Phase-Week2.md)
 
-You can follow my work in Coding Phase Week 3 [here](https://github.com/Ishani-Mondal/Ishani-Mondal.github.io/blob/master/Coding-Phase-Week3.md)
+You can follow my work in Coding Phase Week 3 [here](https://ishani-mondal.github.io/Coding-Phase-Week3.md)
 
 Cheers!
 
