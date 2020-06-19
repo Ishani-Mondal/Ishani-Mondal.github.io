@@ -4,11 +4,21 @@ At the end of week 2, I have generated the RDF of the Obama Abstract. But I was 
 
 ## Steps to improve the RDF Triple generation:
 
-Step1 : Perform a dependency parse of the sentence
-Step2 : Check the nounchunks of the sentence and take into account the information of the relations "attr" and "pobj".
+# Step1 : Perform a dependency parse of the sentence
+
+# Step2 : Check the nounchunks of the sentence and take into account the information of the relations "attr" and "pobj".
 
 
 ```markdown
     Example: Obama worked as civil rights attorney.
 ```
-In this example, attorney is the 'attr' of 'work', so we include this information for 
+
+In this example, attorney is the 'attr' of 'work', so we include this information for our future processing. Moreover, we also keep information of 'pobj' such as:
+
+```markdown
+    Example: Obama is born in Honolulu, Hawaai.
+```
+
+Here 'Honolulu, Hawaai' is the pobj of the verb "born".
+
+# Step3 : Modify the predicate and object using property lexicalization.
