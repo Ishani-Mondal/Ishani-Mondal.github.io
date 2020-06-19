@@ -4,7 +4,7 @@ In the first week of the coding period, I implemented the method to extract out 
 The dependency parse tree method is ClauseIE. ClausIE exploits linguistic knowledge about the grammar of the English language to first detect clauses
 in an input sentence and to subsequently identify the type of each clause according to the grammatical function of its constituents.
 
-For the purpose of extracting out the triplets I have used the input data from [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/Obama_abstract.txt) , code from [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/Pyclausie/Final_RDF_Creation.py).
+For the purpose of extracting out the triplets I have used the input data from [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/input_data/Obama_abstract.txt).
 The details of setting up the environment for extracting out the triplets can be found [here](https://github.com/Ishani-Mondal/GSOC2020/tree/master/Pyclausie). 
 
 # Details of the algorithm 
