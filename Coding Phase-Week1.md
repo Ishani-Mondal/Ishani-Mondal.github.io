@@ -44,6 +44,8 @@ Moreover, in case of Subject-Verb-iObject-dobject, we generate the triples in si
 
 In case of (AE, declared, the meeting, open), we create one triple as : <AE, declared, the meeting open>.
 
+At the end of the first week, I have generated the triples here. 
+
 # Step-by-step RDF Generation Procedure:
 
 ## STEP 1:
