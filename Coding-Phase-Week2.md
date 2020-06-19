@@ -1,6 +1,6 @@
 # RDF Generation Using Dependency Parsing and Spotlight and Lexicalization:
 
-At the end of week2, I have generated the triples from the textual document and mapped them to the Spotlight. Then, Mariano asked me to include more rich information of the verb properties into the whitelist, so I went on doing that further. In the remaining post, I will discuss about the implementation of my algorithm for the rest of the blog.
+At the end of week 1, I have generated the triples from the textual document and mapped them to the Spotlight. Then, Mariano asked me to include more rich information of the verb properties into the whitelist, so I went on doing that further. In the remaining post, I will discuss about the implementation of my algorithm for the rest of the blog.
 
 # Step-by-step RDF Generation Procedure:
 
