@@ -42,9 +42,9 @@ Let us see you in the next week for [second part of the community bonding phase]
 
 You can follow my work in Coding Phase Week 1 [here](https://ishani-mondal.github.io/Coding%20Phase-Week1)
 
-You can follow my work in Coding Phase Week 2 [here](https://ishani-mondal.github.io/Coding-Phase-Week2.md)
+You can follow my work in Coding Phase Week 2 [here](https://ishani-mondal.github.io/Coding-Phase-Week2)
 
-You can follow my work in Coding Phase Week 3 [here](https://ishani-mondal.github.io/Coding-Phase-Week3.md)
+You can follow my work in Coding Phase Week 3 [here](https://ishani-mondal.github.io/Coding-Phase-Week3)
 
 Cheers!
 
