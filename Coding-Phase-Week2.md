@@ -80,9 +80,5 @@ Code to subsitute the results can be found [here](https://github.com/Ishani-Mond
 ```markdown
     <http://dbpedia.org/resource/Barack_Obama> <http://dbpedia.org/ontology/occupation> <a http://dbpedia.org/resource/Civil_and_political_rights attorney>
 ```
-## STEP 4:
-### RDF Generation:
-
-The final results of RDF generated from this approach can be found as a result [here](https://github.com/Ishani-Mondal/GSOC2020/blob/master/triple_extraction_results/ObamaRDF)
 
 Thanks for your time in going through this !!
