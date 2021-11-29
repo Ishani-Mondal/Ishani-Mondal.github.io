@@ -75,29 +75,26 @@
                      <span class="papertitle">End-to-End Construction of NLP Knowledge Graph</span><br>
                      Ishani Mondal*, <span class="thisauthor">Yufang Hou*</span>, Charles Jochim
                      <span class="noter"> (* = Equal Contribution)</span><br>
-                     <span class="conf"><a class="confshort" href="https://acl2020.org/">Findings of ACL'21</a> | Annual Conference of the Association for Computational
+                     <span class="conf"><a class="confshort" href="https://2021.aclweb.org/">Findings of ACL-IJCNLP'21</a> | Annual Conference of the Association for Computational
                          Linguistics</span><br>
                     
-                     <a class="tag" href="https://arxiv.org/pdf/2004.09095.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
-                     <a class="tag" href="https://arxiv.org/abs/2004.09095" target="_blank">abstract</a><span class="tagsep">|</span>
-                     <a class="tag" href="cites/acl2020.bib" target="_blank">cite</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://aclanthology.org/2021.findings-acl.165.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://arxiv.org/abs/2106.01167" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://aclanthology.org/2021.findings-acl.165.bib" target="_blank">cite</a><span class="tagsep">|</span>
                      <!--<a class="tag" href="https://microsoft.github.io/linguisticdiversity/" target="_blank">website</a>-->
                  </p>
                  </div>
                  <div class="py-2">
                  <p class="paper my-2 pl-2">
-                     <span class="papertitle">Learnings from Technological Interventions in a Low Resource
-                         Language</span><br>
-                     Devansh Mehta*, <span class="thisauthor">Sebastin Santy*</span>, Ramaravind Mothilal, Brij Mohan
-                     Lal Srivastava, Alok
-                     Sharma, Anurag Shukla, Vishnu Prasad, Venkanna U, Amit Sharma and Kalika Bali
+                     <span class="papertitle">BBAEG: Towards BERT-based Biomedical Adversarial Example Generation for Text Classification</span><br>
+                     <span class="thisauthor">Ishani Mondal</span>
                      <span class="noter"> (* = Equal Contribution)</span><br>
-                     <span class="conf"><a class="confshort" href="https://lrec2020.lrec-conf.org/">LREC'20</a> | International Conference on Language
-                         Resources and Evaluation</span><br>
+                     <span class="conf"><a class="confshort" href="https://2021.naacl.org/">NAACL-HLT'21</a> | North American Chapter of the
+Association for Computational Linguistics: Human Language Technologies</span><br>
                     
-                     <a class="tag" href="https://arxiv.org/pdf/2004.10270.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
-                     <a class="tag" href="https://arxiv.org/abs/2004.10270" target="_blank">abstract</a><span class="tagsep">|</span>
-                     <a class="tag" href="cites/lrec2020.bib" target="_blank">cite</a>
+                     <a class="tag" href="https://aclanthology.org/2021.naacl-main.423.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://arxiv.org/abs/2104.01782" target="_blank">abstract</a><span class="tagsep">|</span>
+                     <a class="tag" href="https://aclanthology.org/2021.naacl-main.423.bib" target="_blank">cite</a>
                  </p>
                  </div>
                  <div class="py-2">
