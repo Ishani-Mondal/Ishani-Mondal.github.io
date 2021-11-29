@@ -72,17 +72,16 @@
                  <p class="header pt-5">Publications</p>
                  <div class="py-2">
                  <p class="paper my-2 pl-2">
-                     <span class="papertitle">The State and Fate of Linguistic Diversity and Inclusion in the NLP
-                         World</span><br>
-                     Pratik Joshi*, <span class="thisauthor">Sebastin Santy*</span>, Amar Budhiraja*, Kalika Bali, Monojit Choudhury
+                     <span class="papertitle">End-to-End Construction of NLP Knowledge Graph</span><br>
+                     Ishani Mondal*, <span class="thisauthor">Yufang Hou*</span>, Charles Jochim
                      <span class="noter"> (* = Equal Contribution)</span><br>
-                     <span class="conf"><a class="confshort" href="https://acl2020.org/">ACL'20</a> | Annual Conference of the Association for Computational
+                     <span class="conf"><a class="confshort" href="https://acl2020.org/">Findings of ACL'21</a> | Annual Conference of the Association for Computational
                          Linguistics</span><br>
                     
                      <a class="tag" href="https://arxiv.org/pdf/2004.09095.pdf" target="_blank">pdf</a><span class="tagsep">|</span>
                      <a class="tag" href="https://arxiv.org/abs/2004.09095" target="_blank">abstract</a><span class="tagsep">|</span>
                      <a class="tag" href="cites/acl2020.bib" target="_blank">cite</a><span class="tagsep">|</span>
-                     <a class="tag" href="https://microsoft.github.io/linguisticdiversity/" target="_blank">website</a>
+                     <!--<a class="tag" href="https://microsoft.github.io/linguisticdiversity/" target="_blank">website</a>-->
                  </p>
                  </div>
                  <div class="py-2">
