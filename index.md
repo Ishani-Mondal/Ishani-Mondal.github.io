@@ -52,17 +52,16 @@
 
 
                  I have been fortunate to work with an amazing set of researchers in the past. I did my Masters thesis
-                 at the<a class="in-text" href="https://www.cmu.edu/" target="_blank">Indian Institute of Technology, Kharagpur</a> where
+                 at the <a class="in-text" href="https://www.cmu.edu/" target="_blank">Indian Institute of Technology, Kharagpur</a> where
                  I was advised by <a class="in-text" href="http://www.cs.cmu.edu/~dst/" target="_blank">Prof.
                      Pawan Goyal</a> and <a class="in-text" href="http://www.cs.cmu.edu/~dst/" target="_blank">
                      Prof. Sudeshna Sarkar</a>. I also interned at <a class="in-text" href="https://www.ucl.ac.uk/"
-                     target="_blank">University College London</a> with <a class="in-text"
-                     href="https://emineyilmaz.cs.ucl.ac.uk" target="_blank">Emine Yilmaz</a> and <a class="in-text"
-                     href="http://rishabhmehrotra.com/" target="_blank">Rishabh Mehrotra</a>. Prior to my time in
-                 research, I spent two summers with <a class="in-text" href="https://summerofcode.withgoogle.com/"
-                     target="_blank">Google Summer of Code</a> working for <a class="in-text"
-                     href="https://julialang.org/" target="_blank">Julia Language</a> and <a class="in-text"
-                     href="https://www.mozilla.org/" target="_blank">Mozilla</a>. <br><br>
+                     target="_blank">IBM Research Lab, Dublin</a> with <a class="in-text"
+                     href="https://emineyilmaz.cs.ucl.ac.uk" target="_blank">Yufang Hou</a> and <a class="in-text"
+                     href="http://rishabhmehrotra.com/" target="_blank">Charles Jochim</a>. Prior to this,
+                 I spent a summer at <a class="in-text" href="https://summerofcode.withgoogle.com/"
+                     target="_blank">TCS Research Lab, India</a> working on <a class="in-text"
+                     href="https://julialang.org/" target="_blank">biomedical and clinical NLP Technologies.</a>.
 
                  I graduated with a B.Tech (Hons.) in Computer Science and Engineering from <a class="in-text"
                      href="https://www.bits-pilani.ac.in/" target="_blank">Institute of Engineering and Management</a>, Kolkata, India. Then I pursued MS By Research in Computer Scienece and Engineering from IIT Kharagpur. My research interests lie at the intersection of computational linguistics for healthcare, computational social science and scientific information extraction.
