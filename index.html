@@ -5,8 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="AI Center Fellow, Microsoft Research India">
-    <meta name="author" content="Sebastin Santy">
+    <meta name="description" content="Research Fellow, Microsoft Research India">
+    <meta name="author" content="Ishani Mondal">
     <meta name="theme-color" content="#222222">
 
     <link rel="apple-touch-icon" sizes="180x180" href="images/nicons/apple-touch-icon.png">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style-3.css">
       
-    <title>Sebastin Santy</title>
+    <title>Ishani Mondal</title>
   </head>
   <body>
     <!-- <h1>Hello, world!</h1> -->
@@ -25,7 +25,7 @@
         <div class="row pt-5 allstuff">
             <div class="col-md-4 pt-5">
                 <div class="fixed-posi">
-                <p class="name">Sebastin Santy</p>
+                <p class="name">Ishani Mondal</p>
                 <img src="images/profile-pixel.png" class="profilepic pt-3 pb-2">
                 <div class="pt-5 menur"><a class="menulink" target="_blank" href="assets/sebastin_cv.pdf">curriculum vitae</a></div>
                 <div class=""><a class="menulink" target="_blank" href="https://scholar.google.com/citations?user=HsyMg08AAAAJ">google scholar</a></div>
@@ -42,19 +42,20 @@
             </div>
             <div class="col-md-8 pt-5 about">
                  I am a pre-doctoral <a class="in-text" href="https://www.microsoft.com/en-us/research/group/scai/"
-                     target="_blank">AI Center</a> Fellow at <a class="in-text"
+                     target="_blank">Research</a> Fellow at <a class="in-text"
                      href="https://www.microsoft.com/en-us/research/lab/microsoft-research-india/"
-                     target="_blank">Microsoft Research India</a>, where I work with <a class="in-text"
+                     target="_blank">Microsoft Research Lab, India</a>, where I work with <a class="in-text"
                      href="https://www.microsoft.com/en-us/research/people/kalikab/" target="_blank">Kalika Bali</a> and
                  <a class="in-text" href="https://www.microsoft.com/en-us/research/people/monojitc/"
                      target="_blank">Monojit Choudhury</a>. I am interested in working on problems that focus on
-                 democratizing language technologies. <br> <br>
+                 democratizing language technologies for low-resource languages. <br> <br>
 
 
-                 I have been fortunate to work with an amazing set of researchers in the past. I did my bachelor thesis
-                 at <a class="in-text" href="https://www.cmu.edu/" target="_blank">Carnegie Mellon University</a> where
-                 I was advised by <a class="in-text" href="http://www.cs.cmu.edu/~dst/" target="_blank">Dave
-                     Touretzky</a>. I also interned at <a class="in-text" href="https://www.ucl.ac.uk/"
+                 I have been fortunate to work with an amazing set of researchers in the past. I did my Masters thesis
+                 at the<a class="in-text" href="https://www.cmu.edu/" target="_blank">Indian Institute of Technology, Kharagpur</a> where
+                 I was advised by <a class="in-text" href="http://www.cs.cmu.edu/~dst/" target="_blank">Prof.
+                     Pawan Goyal</a> and <a class="in-text" href="http://www.cs.cmu.edu/~dst/" target="_blank">
+                     Prof. Sudeshna Sarkar</a>. I also interned at <a class="in-text" href="https://www.ucl.ac.uk/"
                      target="_blank">University College London</a> with <a class="in-text"
                      href="https://emineyilmaz.cs.ucl.ac.uk" target="_blank">Emine Yilmaz</a> and <a class="in-text"
                      href="http://rishabhmehrotra.com/" target="_blank">Rishabh Mehrotra</a>. Prior to my time in
