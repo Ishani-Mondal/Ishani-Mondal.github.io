@@ -64,10 +64,11 @@
                      href="https://julialang.org/" target="_blank">Julia Language</a> and <a class="in-text"
                      href="https://www.mozilla.org/" target="_blank">Mozilla</a>. <br><br>
 
-                 I graduated with a B.Tech (Hons.) in Electronics and Instrumentation from <a class="in-text"
-                     href="https://www.bits-pilani.ac.in/" target="_blank">BITS Pilani</a>, Goa, India in 2019. For more
+                 I graduated with a B.Tech (Hons.) in Computer Science and Engineering from <a class="in-text"
+                     href="https://www.bits-pilani.ac.in/" target="_blank">Institute of Engineering and Management</a>, Kolkata, India. Then I pursued MS By Research in Computer Scienece and Engineering from IIT Kharagpur. My research interests lie at the intersection of computational linguistics for healthcare, computational social science and scientific information extraction.
+              For more
                  details, check my <a class="in-text" href="assets/sebastin_cv.pdf" target="_blank">CV</a> or hit me up
-                 on my <a class="in-text" href="mailto:hi@sebast.in">email</a>.
+                 on my <a class="in-text" href="mailto:ishani340@gmail.com">email</a>.
 
                  <p class="header pt-5">Publications</p>
                  <div class="py-2">
