@@ -49,6 +49,7 @@
                  <a class="in-text" href="https://www.microsoft.com/en-us/research/people/monojitc/"
                      target="_blank">Monojit Choudhury</a>. I am interested in working on problems that focus on
                  democratizing language technologies for low-resource languages. <br> <br>
+                Overall, my research interests lie at the intersection of computational linguistics for healthcare, computational social science and scientific information extraction.
 
 
                  I have been fortunate to work with an amazing set of researchers in the past. I did my Masters thesis
