@@ -60,7 +60,7 @@
                 <img src='GPA.jpg' width=100%>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://openreview.net/forum?id=xkgfLXZ4e0">
+                <a href="https://arxiv.org/abs/2310.11523">
                   <span class="papertitle">Group Preference Alignment: Customized LLM Response Generation from In-Situ Conversations</span>
                 </a>
                 <br>
@@ -76,7 +76,7 @@
                 <br>
                 <em>Under Review at EMNLP</em>, 2025
                 <br>
-                <a href="https://arxiv.org/abs/2310.11523">ArXiv</a>
+                <a href=https://arxiv.org/abs/2310.11523">ArXiv</a>
                 <p></p>
                 <p>
                   LLMs often fail to meet the specialized needs of distinct user groups due to their one-size-fits-all training paradigm and there is limited research on what personalization aspects each group expect. To address these limitations, we propose a group-aware personalization framework, Group Preference Alignment (GPA), that identifies context-specific variations in conversational preferences across user groups and then steers LLMs to address those preferences. Our approach consists of two steps: (1) Group-Aware Preference Extraction, where maximally divergent user-group preferences are extracted from real-world conversation logs and distilled into interpretable rubrics, and (2) Tailored Response Generation, which leverages these rubrics through two methods: a) Context-Tuned Inference (GPA-CT), that dynamically adjusts responses via context-dependent prompt instructions, and b) Rubric-Finetuning Inference (GPA-FT), which uses the rubrics to generate contrastive synthetic data for personalization of group-specific models via alignment. Experiments demonstrate that our framework significantly improves alignment of the output with respect to user preferences and outperforms baseline methods, while maintaining robust performance on standard benchmarks.
