@@ -39,7 +39,7 @@
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="19728142.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="19728142.jpg" class="hoverZoomLink"></a>
+                <a href="19728142.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="Ishani.jpg" class="hoverZoomLink"></a>
               </td>
             </tr>
           </tbody></table>
