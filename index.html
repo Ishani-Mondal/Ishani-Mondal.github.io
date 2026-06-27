@@ -281,123 +281,7 @@ html<!-- ===== RESEARCH STATEMENT ===== -->
 
   <div class="themes">
 
-    <!-- ============ Q1 ============ -->
-    <div class="theme q1">
-      <span class="qk">Q1 · interaction</span>
-      <h3>People from interaction <span class="count">4 papers</span></h3>
-      <p>Recovering intent, expertise, and mental models from the traces of how people work —
-        edits, comments, critiques, preferences — rather than from explicit labels.</p>
-
-      <div class="bubbles">
-
-        <details class="pub">
-          <summary>
-            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="sum-main">
-              <span class="pub-title">Group Preference Alignment: Customized LLM Response Generation from In-Situ Conversations</span>
-              <span class="pub-venue"><span class="venue-chip">EMNLP 2025</span></span>
-            </span>
-          </summary>
-          <div class="pub-body">
-            <img class="thumb" src="GPA.jpg" alt="">
-            <div>
-              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Jay Stokes, Sujay Kumar Jauhar, Longqi Yang, Mengting Wan, Xiaofeng Xu, Xia Song, Jordan Lee Boyd-Graber, Jennifer Neville</p>
-              <div class="pub-links"><a href="https://arxiv.org/abs/2503.08035">arXiv</a></div>
-              <p class="pub-abstract">LLMs often fail to meet the specialized needs of distinct user groups due to their one-size-fits-all training paradigm, and there is limited research on what personalization aspects each group expects. We propose Group Preference Alignment (GPA), a group-aware framework that identifies context-specific variations in conversational preferences across user groups and steers LLMs to address them. It has two steps: (1) Group-Aware Preference Extraction, where maximally divergent user-group preferences are mined from real conversation logs and distilled into interpretable rubrics, and (2) Tailored Response Generation via either Context-Tuned Inference (GPA-CT), which adjusts responses through context-dependent prompt instructions, or Rubric-Finetuning Inference (GPA-FT), which uses the rubrics to generate contrastive synthetic data for group-specific alignment. Experiments show significant gains in preference alignment over baselines while maintaining robust performance on standard benchmarks.</p>
-            </div>
-          </div>
-        </details>
-
-        <details class="pub">
-          <summary>
-            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="sum-main">
-              <span class="pub-title">Is your benchmark truly adversarial? AdvScore: Evaluating Human-Grounded Adversarialness</span>
-              <span class="pub-venue"><span class="venue-chip">NAACL 2025</span> <span class="award">Outstanding Paper Award</span></span>
-            </span>
-          </summary>
-          <div class="pub-body">
-            <img class="thumb" src="advscore.jpg" alt="">
-            <div>
-              <p class="pub-authors">Yoo Yeon Sung, Maharshi Gor, Eve Flesig, <span class="me">Ishani Mondal</span>, Jordan Lee Boyd-Graber</p>
-              <div class="pub-links"><a href="https://aclanthology.org/2025.naacl-long.27.pdf">Paper</a><a href="https://github.com/yysung/Advscore">Code</a></div>
-              <p class="pub-abstract">Adversarial datasets should validate AI robustness with samples humans handle well but models do not — yet as models evolve, datasets become obsolete, and there is no standardized metric for measuring how adversarial a dataset remains. We propose ADVSCORE, a human-grounded metric that captures models' and humans' varying abilities while identifying poor examples. ADVSCORE drives a new dataset-creation pipeline for realistic, high-quality adversarial samples, which we use to collect ADVQA. Applying it across 9,347 human responses and ten models' predictions over 2020–2024, we track model improvement and provide guidance for achieving robustness comparable to human capabilities, ensuring adversarial datasets test real capability rather than outdated or artificial difficulty.</p>
-            </div>
-          </div>
-        </details>
-
-        <details class="pub">
-          <summary>
-            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="sum-main">
-              <span class="pub-title">Adaptive IE: Investigating the Complementarity of Human–AI Collaboration to Adaptively Extract Information on-the-fly</span>
-              <span class="pub-venue"><span class="venue-chip">COLING 2025</span> <span class="award soft">Oral</span></span>
-            </span>
-          </summary>
-          <div class="pub-body">
-            <img class="thumb" src="adaptiveie.jpg" alt="">
-            <div>
-              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Michelle Yuan, Anandhavelu Natarajan, Aparna Garimella, Francis Ferraro, Andrew Blair-Stanek, Benjamin Van Durme, Jordan Lee Boyd-Graber</p>
-              <div class="pub-links"><a href="https://aclanthology.org/2025.coling-main.392/">Paper</a><a href="https://arxiv.org/abs/2412.15211">arXiv</a></div>
-              <p class="pub-abstract">Information-extraction needs vary over time, so a flexible IE system is valuable — yet existing systems are either fully supervised (expensive annotation) or fully unsupervised (output that ignores user needs). We formally introduce "IE on-the-fly" and address it with Adaptive IE, which uses human-in-the-loop refinement to adapt to changing user questions. Through human experiments on three diverse datasets, we show Adaptive IE is a domain-agnostic, responsive, and efficient framework that helps users access useful information while quickly reorganizing it in response to evolving needs.</p>
-            </div>
-          </div>
-        </details>
-
-        <details class="pub">
-          <summary>
-            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="sum-main">
-              <span class="pub-title">PEDANTS: Cheap but Effective and Interpretable Answer Equivalence</span>
-              <span class="pub-venue"><span class="venue-chip">EMNLP 2024</span></span>
-            </span>
-          </summary>
-          <div class="pub-body">
-            <img class="thumb" src="pedants.jpg" alt="">
-            <div>
-              <p class="pub-authors">Zongxia Li, <span class="me">Ishani Mondal</span>, Huy Nghiem, Yijun Liang, Jordan Lee Boyd-Graber</p>
-              <div class="pub-links"><a href="https://arxiv.org/abs/2402.11161">arXiv</a><a href="https://github.com/zli12321/PEDANTS-LLM-Evaluation">Code</a></div>
-              <p class="pub-abstract">Question answering only progresses if we can tell whether an answer is correct, but current answer-correctness metrics struggle with the verbose, free-form answers of LLMs. Two challenges dominate short-form QA evaluation: a lack of diverse evaluation data and over-reliance on expensive, slow LLM scorers. We provide rubrics and datasets adopted from the Trivia community and propose an efficient, interpretable QA evaluation that is more stable than exact match and neural methods such as BERTScore.</p>
-            </div>
-          </div>
-        </details>
-
-      </div>
-    </div>
-
-    <!-- ============ Q2 ============ -->
-    <div class="theme q2">
-      <span class="qk">Q2 · world models</span>
-      <h3>Multimodal world state <span class="count">2 papers</span></h3>
-      <p>Keeping physical and social state coherent — objects, layouts, constraints, gestures,
-        roles — across long, multi-turn generation and editing.</p>
-
-      <div class="bubbles">
-
-        
-
-        <details class="pub">
-          <summary>
-            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="sum-main">
-              <span class="pub-title">Correlating Instruction-Tuning (in Multimodal Models) with Vision-Language Processing (in the Brain)</span>
-              <span class="pub-venue"><span class="venue-chip">ICLR 2025</span></span>
-            </span>
-          </summary>
-          <div class="pub-body">
-            <img class="thumb" src="personad2s.jpg" alt="">
-            <div>
-              <p class="pub-authors">Subba Reddy Oota, Akshett Rai Jindal, <span class="me">Ishani Mondal</span>, Khushbu Pahwa, Satya Sai Srinath Namburi, Manish Shrivastava, Maneesh Singh, Raju Surampudi Bapi, Manish Gupta</p>
-              <div class="pub-links"><a href="https://openreview.net/forum?id=xkgfLXZ4e0">OpenReview</a><a href="https://arxiv.org/html/2505.20029v1">arXiv</a><a href="https://github.com/subbareddy248/mllm_instruction_brain">Code</a></div>
-              <p class="pub-abstract">Instruction-tuned multimodal LLMs show stronger alignment with brain activity during natural-scene viewing than vision-only models, especially when processing task-specific instructions like image captioning and visual question answering. However, not all instructions contribute equally to brain alignment, highlighting the need for more precise instruction encoding to better predict neural responses.</p>
-            </div>
-          </div>
-        </details>
-
-      </div>
-    </div>
-
-    <!-- ============ Q3 ============ -->
+       <!-- ============ Q3 ============ -->
     <div class="theme q3">
       <span class="qk">Q3 · communication</span>
       <h3>AI for Scientific communication and Human-Centered Evaluation<span class="count">2 papers</span></h3>
@@ -515,10 +399,133 @@ html<!-- ===== RESEARCH STATEMENT ===== -->
           </div>
         </details>
 
+
+         <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">PEDANTS: Cheap but Effective and Interpretable Answer Equivalence</span>
+              <span class="pub-venue"><span class="venue-chip">EMNLP 2024</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="pedants.jpg" alt="">
+            <div>
+              <p class="pub-authors">Zongxia Li, <span class="me">Ishani Mondal</span>, Huy Nghiem, Yijun Liang, Jordan Lee Boyd-Graber</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2402.11161">arXiv</a><a href="https://github.com/zli12321/PEDANTS-LLM-Evaluation">Code</a></div>
+              <p class="pub-abstract">Question answering only progresses if we can tell whether an answer is correct, but current answer-correctness metrics struggle with the verbose, free-form answers of LLMs. Two challenges dominate short-form QA evaluation: a lack of diverse evaluation data and over-reliance on expensive, slow LLM scorers. We provide rubrics and datasets adopted from the Trivia community and propose an efficient, interpretable QA evaluation that is more stable than exact match and neural methods such as BERTScore.</p>
+            </div>
+          </div>
+        </details>
+
+
+         <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">Is your benchmark truly adversarial? AdvScore: Evaluating Human-Grounded Adversarialness</span>
+              <span class="pub-venue"><span class="venue-chip">NAACL 2025</span> <span class="award">Outstanding Paper Award</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="advscore.jpg" alt="">
+            <div>
+              <p class="pub-authors">Yoo Yeon Sung, Maharshi Gor, Eve Flesig, <span class="me">Ishani Mondal</span>, Jordan Lee Boyd-Graber</p>
+              <div class="pub-links"><a href="https://aclanthology.org/2025.naacl-long.27.pdf">Paper</a><a href="https://github.com/yysung/Advscore">Code</a></div>
+              <p class="pub-abstract">Adversarial datasets should validate AI robustness with samples humans handle well but models do not — yet as models evolve, datasets become obsolete, and there is no standardized metric for measuring how adversarial a dataset remains. We propose ADVSCORE, a human-grounded metric that captures models' and humans' varying abilities while identifying poor examples. ADVSCORE drives a new dataset-creation pipeline for realistic, high-quality adversarial samples, which we use to collect ADVQA. Applying it across 9,347 human responses and ten models' predictions over 2020–2024, we track model improvement and provide guidance for achieving robustness comparable to human capabilities, ensuring adversarial datasets test real capability rather than outdated or artificial difficulty.</p>
+            </div>
+          </div>
+        </details>
        
 
       </div>
     </div>
+
+    <!-- ============ Q1 ============ -->
+    <div class="theme q1">
+      <span class="qk">Q1 · interaction</span>
+      <h3>People from interaction <span class="count">4 papers</span></h3>
+      <p>Recovering intent, expertise, and mental models from the traces of how people work —
+        edits, comments, critiques, preferences — rather than from explicit labels.</p>
+
+      <div class="bubbles">
+
+        <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">Group Preference Alignment: Customized LLM Response Generation from In-Situ Conversations</span>
+              <span class="pub-venue"><span class="venue-chip">EMNLP 2025</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="GPA.jpg" alt="">
+            <div>
+              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Jay Stokes, Sujay Kumar Jauhar, Longqi Yang, Mengting Wan, Xiaofeng Xu, Xia Song, Jordan Lee Boyd-Graber, Jennifer Neville</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2503.08035">arXiv</a></div>
+              <p class="pub-abstract">LLMs often fail to meet the specialized needs of distinct user groups due to their one-size-fits-all training paradigm, and there is limited research on what personalization aspects each group expects. We propose Group Preference Alignment (GPA), a group-aware framework that identifies context-specific variations in conversational preferences across user groups and steers LLMs to address them. It has two steps: (1) Group-Aware Preference Extraction, where maximally divergent user-group preferences are mined from real conversation logs and distilled into interpretable rubrics, and (2) Tailored Response Generation via either Context-Tuned Inference (GPA-CT), which adjusts responses through context-dependent prompt instructions, or Rubric-Finetuning Inference (GPA-FT), which uses the rubrics to generate contrastive synthetic data for group-specific alignment. Experiments show significant gains in preference alignment over baselines while maintaining robust performance on standard benchmarks.</p>
+            </div>
+          </div>
+        </details>
+
+       
+
+        <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">Adaptive IE: Investigating the Complementarity of Human–AI Collaboration to Adaptively Extract Information on-the-fly</span>
+              <span class="pub-venue"><span class="venue-chip">COLING 2025</span> <span class="award soft">Oral</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="adaptiveie.jpg" alt="">
+            <div>
+              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Michelle Yuan, Anandhavelu Natarajan, Aparna Garimella, Francis Ferraro, Andrew Blair-Stanek, Benjamin Van Durme, Jordan Lee Boyd-Graber</p>
+              <div class="pub-links"><a href="https://aclanthology.org/2025.coling-main.392/">Paper</a><a href="https://arxiv.org/abs/2412.15211">arXiv</a></div>
+              <p class="pub-abstract">Information-extraction needs vary over time, so a flexible IE system is valuable — yet existing systems are either fully supervised (expensive annotation) or fully unsupervised (output that ignores user needs). We formally introduce "IE on-the-fly" and address it with Adaptive IE, which uses human-in-the-loop refinement to adapt to changing user questions. Through human experiments on three diverse datasets, we show Adaptive IE is a domain-agnostic, responsive, and efficient framework that helps users access useful information while quickly reorganizing it in response to evolving needs.</p>
+            </div>
+          </div>
+        </details>
+
+       
+
+      </div>
+    </div>
+
+    <!-- ============ Q2 ============ -->
+    <div class="theme q2">
+      <span class="qk">Q2 · world models</span>
+      <h3>Multimodal world state <span class="count">2 papers</span></h3>
+      <p>Keeping physical and social state coherent — objects, layouts, constraints, gestures,
+        roles — across long, multi-turn generation and editing.</p>
+
+      <div class="bubbles">
+
+        
+
+        <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">Correlating Instruction-Tuning (in Multimodal Models) with Vision-Language Processing (in the Brain)</span>
+              <span class="pub-venue"><span class="venue-chip">ICLR 2025</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="personad2s.jpg" alt="">
+            <div>
+              <p class="pub-authors">Subba Reddy Oota, Akshett Rai Jindal, <span class="me">Ishani Mondal</span>, Khushbu Pahwa, Satya Sai Srinath Namburi, Manish Shrivastava, Maneesh Singh, Raju Surampudi Bapi, Manish Gupta</p>
+              <div class="pub-links"><a href="https://openreview.net/forum?id=xkgfLXZ4e0">OpenReview</a><a href="https://arxiv.org/html/2505.20029v1">arXiv</a><a href="https://github.com/subbareddy248/mllm_instruction_brain">Code</a></div>
+              <p class="pub-abstract">Instruction-tuned multimodal LLMs show stronger alignment with brain activity during natural-scene viewing than vision-only models, especially when processing task-specific instructions like image captioning and visual question answering. However, not all instructions contribute equally to brain alignment, highlighting the need for more precise instruction encoding to better predict neural responses.</p>
+            </div>
+          </div>
+        </details>
+
+      </div>
+    </div>
+
+ 
 
   </div>
 </section>
