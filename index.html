@@ -374,23 +374,7 @@ html<!-- ===== RESEARCH STATEMENT ===== -->
 
       <div class="bubbles">
 
-        <details class="pub">
-          <summary>
-            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            <span class="sum-main">
-              <span class="pub-title">SMART-Editor: A Multi-Agent Framework for Human-Like Design Editing with Structural Integrity</span>
-              <span class="pub-venue"><span class="venue-chip">EACL 2026</span></span>
-            </span>
-          </summary>
-          <div class="pub-body">
-            <img class="thumb" src="GPA.jpg" alt="">
-            <div>
-              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Meera Bharadwaj, Ayush Roy, Aparna Garimella, Jordan Lee Boyd-Graber</p>
-              <div class="pub-links"><a href="https://aclanthology.org/2026.findings-eacl.169.pdf">Paper</a></div>
-              <p class="pub-abstract">Despite progress in natural-image editing with MLLMs, compositional layout and content editing for structured visual domains (posters, websites) remains under-explored. SMART-Editor is a multi-agent framework for compositional editing of structured images. Unlike prior models focused on isolated local edits, it maintains global coherence through two complementary strategies: Reward-Refine, an inference-time reward-guided refinement method, and Reward-DPO, a training-time preference-optimization approach over reward-aligned layout pairs. We introduce SMART-Edit-Bench, a benchmark of cascading multi-step edits that are implicit yet require layout- and semantics-preserving reasoning about edit order. Automatic and human evaluations confirm that reward-guided planning produces semantically consistent, visually coherent edits beyond what single-shot VLMs generate.</p>
-            </div>
-          </div>
-        </details>
+        
 
         <details class="pub">
           <summary>
@@ -416,12 +400,67 @@ html<!-- ===== RESEARCH STATEMENT ===== -->
     <!-- ============ Q3 ============ -->
     <div class="theme q3">
       <span class="qk">Q3 · communication</span>
-      <h3>Faithful communication <span class="count">2 papers</span></h3>
+      <h3>AI for Scientific communication and Human-Centered Evaluation<span class="count">2 papers</span></h3>
       <p>Turning dense papers and figures into diagrams, slides, and videos that are faithful,
         audience-aware, and useful for real understanding.</p>
 
       <div class="bubbles">
 
+
+        <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">A Good Talk Doesn't Look Like a Summary, it Teaches You! Measuring Takeaways from Paper-to-Video Generation</span>
+              <span class="pub-venue"><span class="venue-chip">Arxiv 2026</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="diagram.jpg" alt="">
+            <div>
+              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Aparna Garimella, Ananya Sai, Pannaga Shivaswamy, Jordan Boyd-Graber</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2605.06856/">Paper</a></div>
+              <p class="pub-abstract">Automatically generated videos from scientific papers are increasingly used for education and research dissemination. However, existing evaluation metrics mainly measure visual quality or whether key points from the paper appear in the video—without assessing whether the video actually helps viewers understand the ideas. We introduce \EffectivePresentationScorer{}, a framework for evaluating the instructional quality of scientific presentation videos. It checks whether a video explains the main ideas clearly, introduces needed background concepts, and connects technical details to the paper’s main contribution. When we apply  \EffectivePresentationScorer{} to the existing paper-to-video generation systems, we find that generated videos mention the correct topics and follow the structure of the paper but fail to explain prerequisite concepts or clarify why the method works. These failures are often ignored by existing video evaluation metrics, which focus on content presence rather than explanatory quality. .</p>
+            </div>
+          </div>
+        </details>
+
+         <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">Benchmarked Yet Not Measured -- Generative AI Should be Evaluated Against Real-World Utility</span>
+              <span class="pub-venue"><span class="venue-chip">Arxiv 2026</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="diagram.jpg" alt="">
+            <div>
+              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Shweta Bhardwaj</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2605.06856/">Paper</a></div>
+              <p class="pub-abstract">Generative AI systems achieve impressive performance on standard benchmarks yet fail to deliver real-world utility, a disconnect we identify across 28 deployment cases spanning education, healthcare, software engineering, and law. We argue that this benchmark utility gap arises from three recurring failures in evaluation practice: proxy displacement, temporal collapse, and distributional concealment. Motivated by these observations, we argue that generative AI evaluation requires a paradigm shift from static benchmark-centered transparency toward stakeholder, goal, and context-conditioned utility transparency grounded in human outcome trajectories. Existing evaluations primarily characterize properties of model outputs, while deployment success depends on whether interaction with AI improves stakeholders' ability to achieve their goals over time. The missing construct is therefore utility: the change in a stakeholder's capability induced through sustained interaction with an AI system within a deployment context. To operationalize this perspective, we propose SCU-GenEval, a four-stage evaluation framework consisting of stakeholder-goal mapping, construct-indicator specification, mechanism modeling, and longitudinal utility measurement. To make these stages practically deployable, we introduce three supporting instruments: structured deployment protocols, context-conditioned user simulators, and persona- and goal-conditioned proxy metrics. We conclude with domain-specific calls to action, arguing that progress in generative AI must be evaluated through measurable improvements in human outcomes rather than benchmark performance alone.</p>
+            </div>
+          </div>
+        </details>
+
+        <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">Helping Figures Tell their Story! Paper-Grounded Video Generation Explaining Complex Scientific Figures</span>
+              <span class="pub-venue"><span class="venue-chip">Arxiv 2026</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="diagram.jpg" alt="">
+            <div>
+              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Javad Baghirov, Jordan Boyd-Graber</p>
+              <div class="pub-links"><a href="https://arxiv.org/abs/2606.12576/">Paper</a></div>
+              <p class="pub-abstract">Scientific figures compress complex pipelines into a single canvas, yet understanding them requires paper-grounded, step-by-step narration aligned with visual highlights a capability missing from current video generation systems and benchmarks. To address this, we introduce paper-grounded figure-to-video generation: generating narrated, region-grounded walkthrough videos from a figure and its paper. We propose MINARD (Multimodal Interpretation of Narrated Architecture via Region Decomposition), a pipeline that generates paper-grounded narrations and sequentially grounds them to figure regions. We also release FigTalk, a benchmark with new sequential and component-level grounding metrics derived. On FigTalk, MINARD generates humanlike, paper-faithful narrations and outperforms narration-conditioned figure spatial grounding compared to existing approaches in both automatic and human evaluation.</p>
+            </div>
+          </div>
+        </details>
+        
         <details class="pub">
           <summary>
             <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -440,7 +479,7 @@ html<!-- ===== RESEARCH STATEMENT ===== -->
           </div>
         </details>
 
-        <details class="pub">
+         <details class="pub">
           <summary>
             <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
             <span class="sum-main">
@@ -457,6 +496,26 @@ html<!-- ===== RESEARCH STATEMENT ===== -->
             </div>
           </div>
         </details>
+
+        <details class="pub">
+          <summary>
+            <svg class="chev" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span class="sum-main">
+              <span class="pub-title">SMART-Editor: A Multi-Agent Framework for Human-Like Design Editing with Structural Integrity</span>
+              <span class="pub-venue"><span class="venue-chip">EACL 2026</span></span>
+            </span>
+          </summary>
+          <div class="pub-body">
+            <img class="thumb" src="GPA.jpg" alt="">
+            <div>
+              <p class="pub-authors"><span class="me">Ishani Mondal</span>, Meera Bharadwaj, Ayush Roy, Aparna Garimella, Jordan Lee Boyd-Graber</p>
+              <div class="pub-links"><a href="https://aclanthology.org/2026.findings-eacl.169.pdf">Paper</a></div>
+              <p class="pub-abstract">Despite progress in natural-image editing with MLLMs, compositional layout and content editing for structured visual domains (posters, websites) remains under-explored. SMART-Editor is a multi-agent framework for compositional editing of structured images. Unlike prior models focused on isolated local edits, it maintains global coherence through two complementary strategies: Reward-Refine, an inference-time reward-guided refinement method, and Reward-DPO, a training-time preference-optimization approach over reward-aligned layout pairs. We introduce SMART-Edit-Bench, a benchmark of cascading multi-step edits that are implicit yet require layout- and semantics-preserving reasoning about edit order. Automatic and human evaluations confirm that reward-guided planning produces semantically consistent, visually coherent edits beyond what single-shot VLMs generate.</p>
+            </div>
+          </div>
+        </details>
+
+       
 
       </div>
     </div>
